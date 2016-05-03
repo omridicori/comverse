@@ -1,0 +1,176 @@
+@media only screen and (max-device-width: 738px) {
+    .linkim > a{
+        font-size: 50px;
+    }
+
+    img.logo {
+        width: 100%;
+        height: auto;
+    }
+
+    span.header {
+        font-size: 30px;
+    }
+
+    div.top {
+        height: 50px;
+    }
+
+    i.icontab {
+        background: #000;
+        width: 50px;
+        height: 50px;
+        color: #fff;
+        margin-right: 10px;
+        font-size: 40px;
+        padding-top: 5px;
+    }
+
+    .fa-whatsapp:hover {
+        background: #27b111;
+    }
+
+    .fa-facebook:hover {
+        background: #23448b;
+    }
+
+    .fa-envelope:hover {
+        background: #ff0000;
+    }
+
+    h3 {
+        font-size: 60px !important;
+    }
+
+    div.custom-icon > p, p.sendtext, p.regtext {
+        font-size: 40px;
+    }
+
+    p.sendtext > a, p.sendtext {
+        color: #2b2b2b;
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+    p.regtext > a, p.regtext {
+        color: #fff;
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+    p.regtext > a:hover {
+        color: #fff;
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+    p.sendtext > a:hover {
+        color: #2b2b2b;
+        font-size: 40px;
+        text-decoration: none;
+    }
+
+    .footer {
+        padding-top: 50px;
+    }
+
+    i.iconfooter {
+        background: #000;
+        width: 200px;
+        height: 200px;
+        color: #fff;
+        font-size: 120px;
+        margin-right: 10px;
+        padding-top: 40px;
+    }
+
+    .fa-whatsapp:hover {
+        background: #27b111;
+    }
+
+    .fa-facebook:hover {
+        background: #23448b;
+    }
+
+    .fa-envelope:hover {
+        background: #ff0000;
+    }
+    td, label {
+        font-size: 50px;
+    }
+
+    .forms, .regtext, .sendtext {
+        font-size: 50px;
+    }
+
+    .logocontainer {
+        background-image: url("../img/bg.png");
+        text-align: center ;
+        width: 100%;
+        height: 550px;
+    }
+
+    .whitelinks, li.white {
+        font-size: 50px;
+    }
+
+    li > a {
+        font-size: 50px;
+    }
+
+    h1.games {
+        font-size: 100px;
+    }
+
+    div.consoles ul li {
+        text-decoration: none;
+        padding-top: 15px;
+        display: block;
+
+    }
+
+    div.consoles ul li a:hover {
+        color: #5a5a5a;
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    div.consoles ul li a {
+        color: #000;
+        font-size: 60px;
+        font-weight: bold;
+    }
+    li ~ li {
+        padding-left: 15px;
+        padding-right: 15px;
+        border-top: solid #000;
+    }
+    .consoles {
+        margin-top: 15px;
+    }
+
+    i.tab {
+        margin-top: 20px;
+        color: #8dda02;
+        font-size: 120px;
+        border-radius: 50%;
+        border: 20px solid #8dda02;
+        padding: 60px;
+        width: 274px;
+        height: 274px;
+    }
+
+    i.tab:hover {
+        color: #fff;
+        background: #8dda02;
+        font-size: 120px;
+        border-radius: 50%;
+        border: 20px solid #fff;
+        padding: 60px;
+        width: 274px;
+        height: 274px;
+    }
+
+}
+
+
