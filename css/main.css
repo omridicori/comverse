@@ -22,10 +22,8 @@ li.nav ~ li.nav {
 }
 
 .sliderheader {
-    background-image:      url('../img/custom-experience.jpg');
-    background-attachment: fixed;
-    background-size:       cover;
-    background-position:   center;
+    background-size: cover;
+    background:      url('../img/custom-experience.jpg') fixed center;
 }
 
 .datetab {
@@ -79,8 +77,8 @@ p.month {
 
 .navigator {
     position:   fixed;
-    top:        0px;
-    left:       0px;
+    top:        0;
+    left:       0;
     z-index:    999;
     width:      100%;
     height:     80px;
@@ -184,7 +182,7 @@ li > a {
     display:        inline-block;
     width:          302px;
     height:         250px;
-    margin:         0px 6px;
+    margin:         0 6px;
     vertical-align: top;
 }
 
@@ -212,7 +210,7 @@ button {
     display:      inline-block;
     margin-right: 310px;
     left:         50px;
-    paddin-left:  30px;
+    padding-left:  30px;
 }
 
 .news {
@@ -264,23 +262,21 @@ ul.footerlist li a, li, ul.footerlist {
 }
 
 .icontab1, .icontab2, .icontab3, .icontab4, .icontab5, .icontab6 {
-    float:             left;
-    background-image:  url("../img/123.png");
-    background-repeat: no-repeat;
-    width:             150px;
-    height:            150px;
-    display:           inline-block;
-    vertical-align:    bottom;
+    float:          left;
+    background:     url("../img/123.png") no-repeat;
+    width:          150px;
+    height:         150px;
+    display:        inline-block;
+    vertical-align: bottom;
 }
 
 .icontab1:hover, .icontab2:hover, .icontab3:hover, .icontab4:hover, .icontab5:hover, .icontab6:hover {
-    float:             left;
-    background-image:  url("../img/456.png");
-    background-repeat: no-repeat;
-    width:             150px;
-    height:            150px;
-    display:           inline-block;
-    vertical-align:    bottom;
+    float:          left;
+    background:     url("../img/456.png") no-repeat;
+    width:          150px;
+    height:         150px;
+    display:        inline-block;
+    vertical-align: bottom;
 }
 
 .iconcontainer > div > p {
