@@ -159,7 +159,7 @@ li > a {
 }
 
 .calendar {
-    background:      url("../img/news-and-events-bg.jpg")fixed center no-repeat;
+    background:      url("../img/news-and-events-bg.jpg") fixed center no-repeat;
     background-size: cover;
     padding:         30px;
 }
@@ -167,30 +167,6 @@ li > a {
 .success {
     width:  940px;
     margin: auto;
-}
-
-.leftcolumn {
-    background: rgba(255, 69, 0, 0);
-    display:    inline-block;
-    width:      302px;
-    height:     250px;
-}
-
-.centercolumn {
-    background:     rgba(255, 69, 0, 0);
-    display:        inline-block;
-    width:          302px;
-    height:         250px;
-    margin:         0 6px;
-    vertical-align: top;
-}
-
-.rightcolumn {
-    background:     rgba(255, 69, 0, 0);
-    display:        inline-block;
-    width:          200px;
-    height:         250px;
-    vertical-align: top;
 }
 
 button {
@@ -285,6 +261,36 @@ ul.footerlist li a, li, ul.footerlist {
 }
 
 /* START of success stories*/
+
+.leftcolumn {
+    background:  rgba(255, 69, 0, 0);
+    display:     inline-block;
+    width:       302px;
+    height:      250px;
+    margin-left: 70px;
+}
+
+.centercolumn {
+    background:     rgba(255, 69, 0, 0);
+    display:        inline-block;
+    width:          302px;
+    height:         250px;
+    margin:         0 6px;
+    vertical-align: top;
+}
+
+.rightcolumn {
+    background:     rgba(255, 69, 0, 0);
+    display:        inline-block;
+    width:          200px;
+    height:         250px;
+    vertical-align: top;
+}
+
+.succsesscontainer {
+    width:  960px;
+    margin: auto;
+}
 
 h1.calendarheader {
     text-align: center;
@@ -397,6 +403,6 @@ h1.calendarheader {
 /* END of success stories*/
 
 .navcont {
-    width: 960px;
+    width:  960px;
     margin: auto;
 }
