@@ -165,8 +165,8 @@ li > a {
     background-image:      url("../img/news-and-events-bg.jpg");
     background-attachment: fixed;
     background-repeat:     no-repeat;
-    background-size:       auto;
-    background-position: center center%;
+    background-size:       cover;
+    background-position: center center;
     padding:               30px;
 }
 
