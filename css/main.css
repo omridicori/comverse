@@ -162,11 +162,8 @@ li > a {
 }
 
 .calendar {
-    background-image:      url("../img/news-and-events-bg.jpg");
-    background-attachment: fixed;
-    background-repeat:     no-repeat;
     background-size:       cover;
-    background-position: center center;
+    background: url("../img/news-and-events-bg.jpg") no-repeat fixed center center;
     padding:               30px;
 }
 
