@@ -254,6 +254,44 @@ ul.footerlist li a, li, ul.footerlist {
     margin-right: auto;
 }
 
+
+
+.blogfooter {
+    background-color: #373737;
+}
+
+.icontab1, .icontab2, .icontab3, .icontab4, .icontab5, .icontab6 {
+    float: left;
+    background-image: url("../img/123.png");
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.icontab1:hover, .icontab2:hover, .icontab3:hover, .icontab4:hover, .icontab5:hover, .icontab6:hover {
+    float: left;
+    background-image: url("../img/456.png");
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.iconcontainer > div > p {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+/* START of success stories*/
+
+h1.calendarheader {
+    text-align: center;
+}
+
 .bigleft {
     background: greenyellow;
     height: 70%;
@@ -305,20 +343,57 @@ ul.footerlist li a, li, ul.footerlist {
     height: 50%;
 }
 
-.blogfooter {
-    background-color: #373737;
+/* success stories HOVER*/
+
+.bigleft:hover {
+    background: #07beff;
+    height: 70%;
+    margin-bottom: 10px;
 }
 
-.icontab1, .icontab2, .icontab3, .icontab4, .icontab5, .icontab6 {
-    background-image: url("img/123.png");
-    width: 150px;
-    height: 150px;
+.bigcenter:hover {
+    background: #07beff;
+    height: 70%;
+    margin-top: 5px;
+}
+
+.smallcenterleft:hover, .smallleftleft:hover {
+    background: #fff200;
+    width: 97px;
+    height: 30%;
+    margin-top: 3px;
     display: inline-block;
-    vertical-align: bottom;
 }
 
-.iconcontainer > div > p {
-    text-align: center;
-    position: relative;
-    bottom: 0px;
+.smallcentercenter:hover, .smalllefcenter:hover {
+    background: #ff00ec;
+    width: 97px;
+    height: 30%;
+    margin-top: 3px;
+    margin-right: 1px;
+    margin-left: 1px;
+    display: inline-block;
 }
+
+.smallcenterright:hover, .smallleftright:hover {
+    background: #44ff00;
+    width: 97px;
+    height: 30%;
+    margin-top: 3px;
+    display: inline-block;
+}
+
+.bigtopright:hover{
+    background: #d81621;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 13px;
+}
+
+.bigbottomright:hover {
+    background: #1a2d8b;
+    width: 100%;
+    height: 50%;
+}
+
+/* END of success stories*/
