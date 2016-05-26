@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 html, body {
-    font-family: 'Open Sans', sans-serif;
-    margin-left: auto;
+    font-family:  'Open Sans', sans-serif;
+    margin-left:  auto;
     margin-right: auto;
 }
 
@@ -12,8 +12,8 @@ html, body {
 }
 
 .linksnav li {
-    display: inline;
-    padding-left: 5px;
+    display:       inline;
+    padding-left:  5px;
     margin-bottom: 500px;
 }
 
@@ -22,90 +22,90 @@ li.nav ~ li.nav {
 }
 
 .sliderheader {
-    background-image: url('../img/custom-experience.jpg');
+    background-image:      url('../img/custom-experience.jpg');
     background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+    background-size:       cover;
+    background-position:   center;
 }
 
 .datetab {
     background: rgba(255, 255, 255, 0.51);
-    width: 350px;
-    margin: 15px;
-    height: 200px;
+    width:      350px;
+    margin:     15px;
+    height:     200px;
 }
 
 .datedata > p {
-    width: 200px;
+    width:      200px;
     margin-top: 50px;
 }
 
 .datenumber {
     font-family: inherit;
-    background: #3694C2;
-    float: left;
-    width: 80px;
-    height: 120px;
-    margin: 30px;
-    color: #fff;
+    background:  #3694C2;
+    float:       left;
+    width:       80px;
+    height:      120px;
+    margin:      30px;
+    color:       #fff;
 }
 
 h4.number {
     font-family: 'Open Sans', sans-serif;
     padding-top: 50px;
-    display: inline;
-    position: relative;
-    top: 30px;
-     font-size: 50px;
-    height: 5px;
-     line-height: 1px;
- }
+    display:     inline;
+    position:    relative;
+    top:         30px;
+    font-size:   50px;
+    height:      5px;
+    line-height: 1px;
+}
 
 hr.date {
     position: relative;
-    top: 40px;
+    top:      40px;
 }
 
 p.month {
     font-family: 'Open Sans', sans-serif;
     padding-top: 50px;
-    display: inline;
-    position: relative;
-    top: 50px;
-    font-size: 20px;
-    height: 5px;
+    display:     inline;
+    position:    relative;
+    top:         50px;
+    font-size:   20px;
+    height:      5px;
     line-height: 1px;
 }
 
 .navigator {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index:999;
-    width:100%;
-    height: 80px;
+    position:   fixed;
+    top:        0px;
+    left:       0px;
+    z-index:    999;
+    width:      100%;
+    height:     80px;
     background: #fff;
-    overflow: hidden;
-    display: inline-block;
-    margin: auto;
+    overflow:   hidden;
+    display:    inline-block;
+    margin:     auto;
 }
 
 .sliderheader {
-    font-family: 'Open Sans', sans-serif;
-    color: #fff;
+    font-family:  'Open Sans', sans-serif;
+    color:        #fff;
     padding-left: 200px;
-    padding-top: 100px;
+    padding-top:  100px;
 }
 
 div.iconsdiv {
-    background: #3694C2;
-    color: #fff;
+    background:     #3694C2;
+    color:          #fff;
     padding-bottom: 150px;
-    padding-top: 100px;
+    padding-top:    100px;
 }
 
 .iconcontainer {
-    width: 940px;
+    width:  940px;
     margin: auto;
 }
 
@@ -115,119 +115,127 @@ div.iconsdiv {
 
 li > a {
     text-decoration: none;
-    font-size:16px;
-    font-family: 'Open Sans', sans-serif;
-    color: #000;
+    font-size:       16px;
+    font-family:     'Open Sans', sans-serif;
+    color:           #000;
 }
 
 .pink, .green, .orange {
-    width: 320px;
-    height: 200px;
-    color: #fff;
+    width:         320px;
+    height:        200px;
+    color:         #fff;
     border-radius: 5px;
-    padding-left: 20px;
-    font-size: 20px;
-    margin-left: 10px;
+    padding-left:  20px;
+    font-size:     20px;
+    margin-left:   10px;
     margin-bottom: 20px;
 }
 
 .pink {
     vertical-align: top;
-    background: rgba(240, 53, 146, 0.8);
+    background:     rgba(240, 53, 146, 0.8);
 }
-.green{
+
+.green {
     vertical-align: top;
-    background: rgba(140, 217, 2, 0.8);
+    background:     rgba(140, 217, 2, 0.8);
 }
+
 .orange {
     vertical-align: top;
-    background: rgba(255, 116, 22, 0.8);
+    background:     rgba(255, 116, 22, 0.8);
 }
+
 .pink:hover {
     vertical-align: top;
-    background: #F03592;
+    background:     #F03592;
 }
-.green:hover  {
+
+.green:hover {
     vertical-align: top;
-    background: #69BF32;
+    background:     #69BF32;
 }
+
 .orange:hover {
     vertical-align: top;
-    background: #ff7416;
+    background:     #ff7416;
 }
 
-
 .calendar {
-    background-image: url("../img/news-and-events-bg.jpg");
+    background-image:      url("../img/news-and-events-bg.jpg");
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat:     no-repeat;
+    background-size:       auto;
     background-position: center center%;
-    padding: 30px;
+    padding:               30px;
 }
 
 .success {
-    width: 940px;
+    width:  940px;
     margin: auto;
 }
 
 .leftcolumn {
     background: rgba(255, 69, 0, 0);
-    display: inline-block;
-    width:302px;
-    height: 250px;
+    display:    inline-block;
+    width:      302px;
+    height:     250px;
 }
 
 .centercolumn {
-    background: rgba(255, 69, 0, 0);
-    display: inline-block;
-    width:302px;
-    height: 250px;
-    margin: 0px 6px;
+    background:     rgba(255, 69, 0, 0);
+    display:        inline-block;
+    width:          302px;
+    height:         250px;
+    margin:         0px 6px;
     vertical-align: top;
 }
 
 .rightcolumn {
-    background: rgba(255, 69, 0, 0);
-    display: inline-block;
-    width:200px;
-    height: 250px;
+    background:     rgba(255, 69, 0, 0);
+    display:        inline-block;
+    width:          200px;
+    height:         250px;
     vertical-align: top;
-  }
+}
 
 button {
-    color: #ffffff;
-    width: 180px;
-    height: 60px;
-    background: #1a2d8b;
-    border-color: #0d078b;
-    border-radius:5px;
-    margin-left: 30%;
-    margin-right: 30%;
+    color:         #ffffff;
+    width:         180px;
+    height:        60px;
+    background:    #1a2d8b;
+    border-color:  #0d078b;
+    border-radius: 5px;
+    margin-left:   30%;
+    margin-right:  30%;
     margin-bottom: 20px;
 }
 
 .news, .events {
-    display: inline-block;
-    margin-right: 300px;
-    left: 50px;
-    paddin-left: 30px;
+    display:      inline-block;
+    margin-right: 310px;
+    left:         50px;
+    paddin-left:  30px;
+}
+
+.news {
+    margin-left: 20px;
 }
 
 .footer {
     background-color: black;
-    color: white;
+    color:            white;
 }
 
 .footercontainer {
-    width: 1200px;
+    width:  1200px;
     margin: auto;
 }
 
 ul.footerlist li a, li, ul.footerlist {
-    list-style: none;
+    list-style:      none;
     text-decoration: none;
-    color: white;
+    color:           white;
 }
 
 .leftfooter, .rightfooter, .centerfooter, .blogfooter {
@@ -243,47 +251,45 @@ ul.footerlist li a, li, ul.footerlist {
 }
 
 .logo, .langswitcher {
-    width: 25%;
-    margin-left: auto;
+    width:        25%;
+    margin-left:  auto;
     margin-right: auto;
 }
 
 .navlinksdiv {
-    width: 45%;
-    margin-left: auto;
+    width:        45%;
+    margin-left:  auto;
     margin-right: auto;
 }
-
-
 
 .blogfooter {
     background-color: #373737;
 }
 
 .icontab1, .icontab2, .icontab3, .icontab4, .icontab5, .icontab6 {
-    float: left;
-    background-image: url("../img/123.png");
+    float:             left;
+    background-image:  url("../img/123.png");
     background-repeat: no-repeat;
-    width: 150px;
-    height: 150px;
-    display: inline-block;
-    vertical-align: bottom;
+    width:             150px;
+    height:            150px;
+    display:           inline-block;
+    vertical-align:    bottom;
 }
 
 .icontab1:hover, .icontab2:hover, .icontab3:hover, .icontab4:hover, .icontab5:hover, .icontab6:hover {
-    float: left;
-    background-image: url("../img/456.png");
+    float:             left;
+    background-image:  url("../img/456.png");
     background-repeat: no-repeat;
-    width: 150px;
-    height: 150px;
-    display: inline-block;
-    vertical-align: bottom;
+    width:             150px;
+    height:            150px;
+    display:           inline-block;
+    vertical-align:    bottom;
 }
 
 .iconcontainer > div > p {
     text-align: center;
-    position: relative;
-    top: 50px;
+    position:   relative;
+    top:        50px;
 }
 
 /* START of success stories*/
@@ -293,107 +299,107 @@ h1.calendarheader {
 }
 
 .bigleft {
-    background: greenyellow;
-    height: 70%;
+    background:    greenyellow;
+    height:        70%;
     margin-bottom: 10px;
 }
 
 .bigcenter {
     background: greenyellow;
-    height: 70%;
+    height:     70%;
     margin-top: 5px;
 }
 
 .smallcenterleft, .smallleftleft {
     background: #3d72ff;
-    width: 97px;
-    height: 30%;
+    width:      97px;
+    height:     30%;
     margin-top: 3px;
-    display: inline-block;
+    display:    inline-block;
 }
 
 .smallcentercenter, .smalllefcenter {
-    background: orange;
-    width: 97px;
-    height: 30%;
-    margin-top: 3px;
+    background:   orange;
+    width:        97px;
+    height:       30%;
+    margin-top:   3px;
     margin-right: 1px;
-    margin-left: 1px;
-    display: inline-block;
+    margin-left:  1px;
+    display:      inline-block;
 }
 
 .smallcenterright, .smallleftright {
     background: #ff1a2c;
-    width: 97px;
-    height: 30%;
+    width:      97px;
+    height:     30%;
     margin-top: 3px;
-    display: inline-block;
+    display:    inline-block;
 }
 
-.bigtopright{
-    background: #91d819;
-    width: 100%;
-    height: 50%;
+.bigtopright {
+    background:    #91d819;
+    width:         100%;
+    height:        50%;
     margin-bottom: 13px;
 }
 
 .bigbottomright {
     background: purple;
-    width: 100%;
-    height: 50%;
+    width:      100%;
+    height:     50%;
 }
 
 /* success stories HOVER*/
 
 .bigleft:hover {
-    background: #07beff;
-    height: 70%;
+    background:    #07beff;
+    height:        70%;
     margin-bottom: 10px;
 }
 
 .bigcenter:hover {
     background: #07beff;
-    height: 70%;
+    height:     70%;
     margin-top: 5px;
 }
 
 .smallcenterleft:hover, .smallleftleft:hover {
     background: #fff200;
-    width: 97px;
-    height: 30%;
+    width:      97px;
+    height:     30%;
     margin-top: 3px;
-    display: inline-block;
+    display:    inline-block;
 }
 
 .smallcentercenter:hover, .smalllefcenter:hover {
-    background: #ff00ec;
-    width: 97px;
-    height: 30%;
-    margin-top: 3px;
+    background:   #ff00ec;
+    width:        97px;
+    height:       30%;
+    margin-top:   3px;
     margin-right: 1px;
-    margin-left: 1px;
-    display: inline-block;
+    margin-left:  1px;
+    display:      inline-block;
 }
 
 .smallcenterright:hover, .smallleftright:hover {
     background: #44ff00;
-    width: 97px;
-    height: 30%;
+    width:      97px;
+    height:     30%;
     margin-top: 3px;
-    display: inline-block;
+    display:    inline-block;
 }
 
-.bigtopright:hover{
-    background: #d81621;
-    width: 100%;
-    height: 50%;
+.bigtopright:hover {
+    background:    #d81621;
+    width:         100%;
+    height:        50%;
     margin-bottom: 13px;
 }
 
 .bigbottomright:hover {
     background: #1a2d8b;
-    width: 100%;
-    height: 50%;
+    width:      100%;
+    height:     50%;
 }
 
 /* END of success stories*/
