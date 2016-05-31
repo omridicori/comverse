@@ -21,6 +21,7 @@ li.nav ~ li.nav {
 }
 
 .sliderheader {
+    height:          550px;
     background:      url('../img/custom-experience.jpg') fixed center no-repeat;
     background-size: cover;
 }
@@ -260,6 +261,11 @@ ul.footerlist li a, li, ul.footerlist {
     top:        50px;
 }
 
+.navcont {
+    width:  960px;
+    margin: auto;
+}
+
 /* START of success stories*/
 
 .leftcolumn {
@@ -300,12 +306,14 @@ h1.calendarheader {
     background:    greenyellow;
     height:        70%;
     margin-bottom: 10px;
+    position:      relative;
 }
 
 .bigcenter {
     background: greenyellow;
     height:     70%;
     margin-top: 5px;
+    position:   relative;
 }
 
 .smallcenterleft, .smallleftleft {
@@ -314,6 +322,7 @@ h1.calendarheader {
     height:     30%;
     margin-top: 3px;
     display:    inline-block;
+    position:   relative;
 }
 
 .smallcentercenter, .smalllefcenter {
@@ -324,6 +333,7 @@ h1.calendarheader {
     margin-right: 1px;
     margin-left:  1px;
     display:      inline-block;
+    position:     relative;
 }
 
 .smallcenterright, .smallleftright {
@@ -332,77 +342,77 @@ h1.calendarheader {
     height:     30%;
     margin-top: 3px;
     display:    inline-block;
+    position:   relative;
 }
 
 .bigtopright {
-    background:    #91d819;
-    width:         100%;
-    height:        50%;
-    margin-bottom: 13px;
+    background: #91d819;
+    width:      100%;
+    height:     50%;
+    position:   relative;
 }
 
 .bigbottomright {
-    background: purple;
+    background: #91d819;
     width:      100%;
     height:     50%;
+    position:   relative;
 }
 
 /* success stories HOVER*/
 
-.bigleft:hover {
-    background:    #07beff;
-    height:        70%;
-    margin-bottom: 10px;
+.bigleft:hover .on {
+    display: none;
 }
 
-.bigcenter:hover {
-    background: #07beff;
-    height:     70%;
-    margin-top: 5px;
+.bigcenter:hover .on {
+    display: none;
 }
 
-.smallcenterleft:hover, .smallleftleft:hover {
-    background: #fff200;
-    width:      97px;
-    height:     30%;
-    margin-top: 3px;
-    display:    inline-block;
+.smallcenterleft:hover .on {
+    display: none;
 }
 
-.smallcentercenter:hover, .smalllefcenter:hover {
-    background:   #ff00ec;
-    width:        97px;
-    height:       30%;
-    margin-top:   3px;
-    margin-right: 1px;
-    margin-left:  1px;
-    display:      inline-block;
+.smallleftleft:hover .on {
+    display: none;
 }
 
-.smallcenterright:hover, .smallleftright:hover {
-    background: #44ff00;
-    width:      97px;
-    height:     30%;
-    margin-top: 3px;
-    display:    inline-block;
+.smallcentercenter:hover .on {
+    display: none;
 }
 
-.bigtopright:hover {
-    background:    #d81621;
-    width:         100%;
-    height:        50%;
-    margin-bottom: 13px;
+.smalllefcenter:hover .on {
+    display: none;
 }
 
-.bigbottomright:hover {
-    background: #1a2d8b;
+.smallcenterright:hover .on {
+    display: none;
+}
+
+.smallleftright:hover .on {
+    display: none;
+}
+
+.bigtopright:hover .on {
+    display: none;
+}
+
+.on {
     width:      100%;
-    height:     50%;
+    height:     100%;
+    background: turquoise;
+    position:   absolute;
+}
+
+.off {
+    width:      100%;
+    height:     100%;
+    background: purple;
+}
+
+.bigbottomright:hover .on {
+    display: none;
 }
 
 /* END of success stories*/
 
-.navcont {
-    width:  960px;
-    margin: auto;
-}
